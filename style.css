@@ -1,0 +1,157 @@
+.contener{
+    margin: auto 30px;
+    background-color: rgb(222, 222, 236);
+    height:510px;
+    border-radius: 5px;
+    /* background-color: aqua; */
+}
+
+.cap{
+    text-align: center;
+    font-size: 1.2em;
+}
+.nav-hous{
+  margin: auto 10px;
+}
+.type-hous{
+    display: inline-block;
+    font-size: 0.7em;
+}
+.knopka{
+    font-size: 0.5em;
+}
+.nav-hous-knopka{
+    font-size: 0.5em;
+    text-decoration: none;
+    color: rgb(241, 104, 12);
+}
+.kart-hous{
+    
+   
+    background:  url(img/Rectangle\ 54\ \(1\).png);
+}
+.group{
+    width: 170px;
+    height: 210px;
+    display: inline-block;
+    margin: 0px;
+    margin-left: 10px;
+    
+    
+}
+.group-colonka{
+    display: block;
+    width: 170px;
+    height: 210px;
+    margin-top: 12px;
+    background-color: rgb(234, 230, 238);
+    border-radius: 5px;
+}
+.blok{
+   padding-top: 5px;
+    /* background-color: blue; */
+}
+.kart{
+    height: 100px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: block;
+}
+.kart-element{
+ margin: 0px;
+ padding: 0px; 
+    
+}
+.kart-foto{
+    width: 100%;
+    border-radius: 5px;
+}
+.caption{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-align: center;
+    vertical-align:text-top;
+}
+.kart-element-opis{
+    /* background-color: chartreuse; */
+    margin: 0px;
+    padding: 0px;
+}
+.kart-dann1{
+    display: inline-block;
+    margin-left: 5px;
+    /* background-color: cyan; */
+    
+}
+.kart-dann2{
+    display: inline-block;
+    margin-left:55px ;
+    /* background-color: cyan; */
+    
+}
+.kart-dann3{
+    display: inline-block;
+    margin-left:5px ;
+    /* background-color: cyan; */
+    
+}
+.kart-dann4{
+    display: inline-block;
+    margin-left:100px ;
+    /* background-color: cyan; */
+}
+.kart-dann5{
+    display: inline-block;
+    margin-left:5px ;
+    /* background-color: cyan; */
+    line-height: 1.5;
+    
+}
+.kart-dann6{
+    display: inline-block;
+    margin-left:43px ;
+    /* background-color: cyan; */
+   
+}
+.kart-dann7{
+    display: inline-block;
+    margin-left:5px ;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(251, 255, 0);
+   
+}
+.kart-dann-text3{
+    font-size: 0.2em;
+    text-decoration: none;
+    display: block;
+    margin-right: 0px;
+    
+}
+.kart-dann-text1{
+    font-size: 0.2em;
+}
+.kart-dann-text2{
+    font-size: 0.2em;
+    display: block;
+    margin-right: 0px;
+    
+}
+.b-text{
+    font-weight: bold;
+}
+
+.b-text-green{
+    
+font-size: 5em;
+font-weight: bold;
+color: rgb(39, 138, 39);
+}
+
+
+
