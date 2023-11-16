@@ -1,156 +1,117 @@
-.contener{
+.container{
     margin: auto 30px;
     background-color: rgb(222, 222, 236);
-    height:510px;
+    height:100%;
     border-radius: 5px;
-    /* background-color: aqua; */
+    
+}
+.container__caption{
+    text-align: center;
+    font-size: 3em;
+}
+.container__nav{
+    text-align: center;
+    
+}
+.container__knopka{
+display: inline-block;
+font-size: 1.8em;
+margin: 0px 5px 0px 5px;
+padding: 3px 7px 3px 7px;
+background-color: rgb(163, 163, 163);
+border-radius: 7px;
+}
+.el_prl-10{
+    padding: 3px 10px 3px 10px;
+}
+.nav-silka{
+    margin-left: 50px;
+    margin-right: 10px;
+    color: rgb(255, 30, 0);
 }
 
-.cap{
-    text-align: center;
-    font-size: 1.2em;
-}
-.nav-hous{
-  margin: auto 10px;
-}
-.type-hous{
-    display: inline-block;
-    font-size: 0.7em;
-}
-.knopka{
-    font-size: 0.5em;
-}
-.nav-hous-knopka{
-    font-size: 0.5em;
-    text-decoration: none;
-    color: rgb(241, 104, 12);
-}
-.kart-hous{
+
+.container__containt{
     
-   
-    background:  url(img/Rectangle\ 54\ \(1\).png);
-}
-.group{
-    width: 170px;
-    height: 210px;
-    display: inline-block;
-    margin: 0px;
-    margin-left: 10px;
-    
-    
-}
-.group-colonka{
-    display: block;
-    width: 170px;
-    height: 210px;
-    margin-top: 12px;
-    background-color: rgb(234, 230, 238);
-    border-radius: 5px;
-}
-.blok{
-   padding-top: 5px;
-    /* background-color: blue; */
-}
-.kart{
-    height: 100px;
-    width: auto;
+    width: calc(100% / 3);
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
+       
 }
-.kart-element{
- margin: 0px;
- padding: 0px; 
-    
+.containt__kart{    
+/* width: calc(100% / 3); */
+padding: 0px;
+margin: 15px;
+height: 830px;
+border-radius: 15px;
+background-color: cadetblue;
 }
-.kart-foto{
+.containt__kart_image{
+    display: inline-block;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px; 
 }
-.caption{
-    
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-    font-size: 0.5em;
+.containt__kart_caption{  
     text-align: center;
-    vertical-align:text-top;
+    font-size: 1.8em;
 }
-.kart-element-opis{
-    /* background-color: chartreuse; */
-    margin: 0px;
-    padding: 0px;
-}
-.kart-dann1{
-    display: inline-block;
-    margin-left: 5px;
-    /* background-color: cyan; */
+.containt__kart_el1{
+    font-size: 1.5em;
     
 }
-.kart-dann2{
+.containt__kart_el1_block1{
     display: inline-block;
-    margin-left:55px ;
-    /* background-color: cyan; */
+    margin-left: 10px;
     
 }
-.kart-dann3{
+.containt__kart_el1_block2{
     display: inline-block;
-    margin-left:5px ;
-    /* background-color: cyan; */
-    
+    margin-left: 315px;
 }
-.kart-dann4{
+.containt__kart_el1_block3{
     display: inline-block;
-    margin-left:100px ;
-    /* background-color: cyan; */
+    margin-left: 290px;
 }
-.kart-dann5{
+.containt__kart_el1_block4{
     display: inline-block;
-    margin-left:5px ;
-    /* background-color: cyan; */
-    line-height: 1.5;
-    
+    margin-left: 390px;
 }
-.kart-dann6{
+.containt__kart_el2{    
+        font-size: 1.5em;
+        line-height: 1.5;
+}
+.containt__kart_el2_block1{
     display: inline-block;
-    margin-left:43px ;
-    /* background-color: cyan; */
-   
-}
-.kart-dann7{
-    display: inline-block;
-    margin-left:5px ;
-    padding: 5px;
-    border-radius: 3px;
-    background-color: rgb(251, 255, 0);
-   
-}
-.kart-dann-text3{
-    font-size: 0.2em;
-    text-decoration: none;
-    display: block;
-    margin-right: 0px;
-    
-}
-.kart-dann-text1{
-    font-size: 0.2em;
-}
-.kart-dann-text2{
-    font-size: 0.2em;
-    display: block;
-    margin-right: 0px;
-    
+    margin-left: 10px;
 }
 .b-text{
     font-weight: bold;
 }
+.containt__kart_el2_block2{ 
+display: inline-block;
+margin-left: 120px;  
 
-.b-text-green{
-    
-font-size: 5em;
-font-weight: bold;
-color: rgb(39, 138, 39);
+}
+.containt__kart_green{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(39, 138, 39); 
+}
+.container__containt_el3{
+    width: 200px;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(190, 130, 18);
+}
+.containt__kart_s{
+    font-size: 1.2em;
+    color: aliceblue;
+    text-decoration: none;
 }
 
 
